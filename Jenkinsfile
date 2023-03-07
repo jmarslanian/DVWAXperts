@@ -25,7 +25,7 @@ pipeline {
                 checkout scm
                 }
             }
-        }  
+        }   
   
     // Building Docker images
     stage('Building image') {
